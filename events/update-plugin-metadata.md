@@ -4,7 +4,9 @@
 
 Sent by the server to client after initial connection.
 
-## Fields
+## Specification
+
+### UpdateMetadataEvent
 
 | Fieldname  | Type   | Description                  |
 | ---------- | ------ | ---------------------------- |
