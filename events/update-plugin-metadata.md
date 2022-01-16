@@ -1,0 +1,7 @@
+# Update Plugin Metadata
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
