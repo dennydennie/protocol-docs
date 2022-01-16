@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Welcome 👋](README.md)

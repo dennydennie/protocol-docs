@@ -1,4 +1,10 @@
-# Introduction
+# Welcome 👋
+
+This space describes the Earn Keeper Plugin protocol, its intended for developers that would like to integrate to EarnKeeper.io without using our Node.js SDK.&#x20;
+
+If you are using Node.js, we have an SDK to get you started here.
+
+## Introduction
 
 We developed the EarnKeeper protocol to communicate between earnkeeper.io (the client) and one or more plugins (the server).
 
