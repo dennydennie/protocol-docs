@@ -14,7 +14,9 @@ Powerful mobile-first flexbox grid to build layouts of all shapes and sizes than
 [col.md](col.md)
 {% endcontent-ref %}
 
-## Properties
+## Supported Properties
+
+EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
 
 | Name     | Type         | Description                                     |
 | -------- | ------------ | ----------------------------------------------- |

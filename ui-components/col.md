@@ -16,6 +16,8 @@ Powerful mobile-first flexbox grid to build layouts of all shapes and sizes than
 
 ## Properties
 
+EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
+
 | Name     | Type         | Description                                     |
 | -------- | ------------ | ----------------------------------------------- |
 | children | UiElement\[] | The list of components to render inside the row |
