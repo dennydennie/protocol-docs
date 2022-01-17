@@ -2,18 +2,26 @@
 
 ## Summary
 
-Sent by the server to the client to remove layers from local storage when they are no longer needed or out of date.
+This event is sent from the plugin to the front end to remove layers from local storage when they are no longer needed or out of date.
 
-## Specification
+Use the query parameter to specify which layers to remove.
 
-### RemoveLayersEvent
+## Event Specification
+
+### Event Name
+
+`remove-layers`
+
+### Event Fields
+
+#### RemoveLayersEvent
 
 | Fieldname | Type            | Description                                            |
 | --------- | --------------- | ------------------------------------------------------ |
 | query     | LayerQueryDto[] | A query object defining which layers should be removed |
 | pluginId  | string          | Your unique plugin id                                  |
 
-### LayerQueryDto
+#### LayerQueryDto
 
 | Fieldname | Type           | Description                                                                                                |
 | --------- | -------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -21,7 +29,7 @@ Sent by the server to the client to remove layers from local storage when they a
 | tags      | string[]       | An array of tags to search for layers to remove. Any layers with at least one matching tag will be removed |
 | timestamp | NumberQueryDto | A query object to search for layers by timestamp                                                           |
 
-### NumberQueryDto
+#### NumberQueryDto
 
 | Fieldname | Type   | Description                                         |
 | --------- | ------ | --------------------------------------------------- |

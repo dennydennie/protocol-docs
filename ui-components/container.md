@@ -1,5 +1,13 @@
 # Container
 
+Powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers.
+
+<https://reactstrap.github.io/?path=/docs/components-layout--layout>
+
+## See Also
+
+
+
 ## Properties
 
 | Name     | Type        | Description                                           |

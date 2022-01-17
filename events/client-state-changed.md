@@ -2,17 +2,25 @@
 
 ## Summary
 
-Sent by the client to the server whenever state changes at the client due to user action.
+This event is sent from the front end app to the plugin whenever state changes due to user interaction.
 
-## Specification
+It contains all information set by the user at the front end.
 
-### ClientStateChangedEvent
+## Event Specification
+
+### Event Name
+
+`client-state-changed`
+
+### Event Fields
+
+#### ClientStateChangedEvent
 
 | Fieldname | Type           | Description                               |
 | --------- | -------------- | ----------------------------------------- |
 | client    | ClientStateDto | Object containing the state at the client |
 
-### ClientStateDto
+#### ClientStateDto
 
 | Fieldname        | Type        | Description                                                |
 | ---------------- | ----------- | ---------------------------------------------------------- |
@@ -21,14 +29,14 @@ Sent by the client to the server whenever state changes at the client due to use
 | watchedChains    | string[]    | An array of chains the user has selected to view           |
 | watchedWallets   | WalletDto[] | An array of wallet addresses the user has selected to view |
 
-### CurrencyDto
+#### CurrencyDto
 
 | Fieldname | Type   | Description                                            |
 | --------- | ------ | ------------------------------------------------------ |
 | id        | string | The id of the currency, matches CoinGecko currency ids |
 | symbol    | string | The display symbol used to prefix currency values      |
 
-### WalletDto
+#### WalletDto
 
 | Fieldname | Type   | Description                                                 |
 | --------- | ------ | ----------------------------------------------------------- |

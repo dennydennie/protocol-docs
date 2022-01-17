@@ -16,13 +16,13 @@ Note that all fields are required, if not all fields are populated, further mess
 
 ### Event Fields
 
-| Fieldname      | Type            | Description                                    |
-| -------------- | --------------- | ---------------------------------------------- |
-| pluginId\*     | string          | Your unique plugin id                          |
-| pluginName\*   | string          | Your plugin name for display                   |
-| githubUrl\*    | string          | The link to your your plugin github repository |
-| ownerAddress\* | string          | Your public address for revenue share payments |
-| ownerChain\*   | 'bsc','polygon' | Your chain for revenue share payments          |
+| Fieldname      | Type             | Description                                    |
+| -------------- | ---------------- | ---------------------------------------------- |
+| pluginId\*     | string           | Your unique plugin id                          |
+| pluginName\*   | string           | Your plugin name for display                   |
+| githubUrl\*    | string           | The link to your your plugin github repository |
+| ownerAddress\* | string           | Your public address for revenue share payments |
+| ownerChain\*   | 'bsc'\|'polygon' | Your chain for revenue share payments          |
 
 ## Examples
 

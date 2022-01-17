@@ -1,6 +1,10 @@
 # Card
 
-## Properties
+Cards provide a flexible and extensible content container with multiple variants and options.
+
+<https://reactstrap.github.io/?path=/docs/components-card--card>
+
+## Supported Properties
 
 | Name     | Type        | Description                                       |
 | -------- | ----------- | ------------------------------------------------- |
