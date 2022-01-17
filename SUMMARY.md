@@ -12,4 +12,7 @@
 ## Ui Components
 
 - [Card](ui-components/card.md)
+- [Col](ui-components/col.md)
 - [Container](ui-components/container.md)
+- [Datatable](ui-components/datatable.md)
+- [Row](ui-components/row.md)
