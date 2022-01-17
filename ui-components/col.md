@@ -1,4 +1,4 @@
-# Container
+# Col
 
 Powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers.
 
@@ -6,20 +6,19 @@ Powerful mobile-first flexbox grid to build layouts of all shapes and sizes than
 
 ## See Also
 
+{% content-ref url="container.md" %}
+[container.md](container.md)
+{% endcontent-ref %}
+
 {% content-ref url="row.md" %}
 [row.md](row.md)
 {% endcontent-ref %}
 
-{% content-ref url="col.md" %}
-[col.md](col.md)
-{% endcontent-ref %}
-
-
 ## Properties
 
-| Name     | Type         | Description                                           |
-| -------- | ------------ | ----------------------------------------------------- |
-| children | UiElement\[] | The list of components to render inside the container |
+| Name     | Type         | Description                                     |
+| -------- | ------------ | ----------------------------------------------- |
+| children | UiElement\[] | The list of components to render inside the row |
 
 ## Examples
 

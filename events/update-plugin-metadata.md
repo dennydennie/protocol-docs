@@ -40,7 +40,7 @@ Note that all fields are required, if not all fields are populated, further mess
 
 ### Typescript
 
-```typescript
+```javascript
 socket.emit(
   "update-metadata",
   JSON.stringify({

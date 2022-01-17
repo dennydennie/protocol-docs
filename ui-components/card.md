@@ -34,7 +34,7 @@ Cards provide a flexible and extensible content container with multiple variants
 
 ### TypeScript
 
-```ts
+```javascript
 Card({
   title: "Example title",
   children: [Span({ content: "An Example Body" })],
