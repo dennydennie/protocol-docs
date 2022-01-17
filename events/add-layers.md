@@ -2,18 +2,28 @@
 
 ## Summary
 
-Sent by the server to the client to add data to client local storage.
+This event is sent from the plugin to the front end app to add data to the client storage.
+
+This data is in the form of documents, which are used to build the UI and store analytics data.
+
+Check the Welcome page for more information.
 
 ## Specification
 
-### AddLayersEvent
+### Event Name
+
+`add-layers`
+
+### Event Fields
+
+#### AddLayersEvent
 
 | Fieldname | Type       | Description                            |
 | --------- | ---------- | -------------------------------------- |
 | layers    | LayerDto[] | List of layers to add to local storage |
 | pluginId  | string     | Your unique plugin id                  |
 
-### LayerDto
+#### LayerDto
 
 | Fieldname      | Type          | Description                                                                                                     |
 | -------------- | ------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -22,14 +32,14 @@ Sent by the server to the client to add data to client local storage.
 | set            | DocumentDto[] | An array of documents to add to the collection. Existing documents with matching id will be overwrittern        |
 | patch          | DocumentDto[] | An array of partial documents to update the collection with. Existing documents with matching id will be merged |
 
-### DocumentDto
+#### DocumentDto
 
 | Fieldname | Type   | Description                                 |
 | --------- | ------ | ------------------------------------------- |
 | id        | string | The unique id of the document               |
 | ...       | any    | Any further fields required by the document |
 
-## Example
+### Example
 
 ```json
 {

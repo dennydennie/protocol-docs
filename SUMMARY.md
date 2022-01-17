@@ -4,10 +4,10 @@
 
 ## Events
 
-- [Add Layers](events/add-layers.md)
-- [Client State Changed](events/client-state-changed.md)
-- [Remove Layers](events/remove-layers.md)
 - [Update Plugin Metadata](events/update-plugin-metadata.md)
+- [Client State Changed](events/client-state-changed.md)
+- [Add Layers](events/add-layers.md)
+- [Remove Layers](events/remove-layers.md)
 
 ## Ui Components
 
