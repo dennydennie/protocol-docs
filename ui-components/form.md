@@ -2,7 +2,7 @@
 
 JsonForms implementation for display of dynamic forms
 
-<https://jsonforms.io/docs>
+[https://jsonforms.io/docs](https://jsonforms.io/docs)
 
 ## Properties
 
@@ -70,3 +70,4 @@ Form({
 
 ### UI
 
+![](<../.gitbook/assets/image (10).png>)
