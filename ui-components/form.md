@@ -19,7 +19,27 @@ JsonForms implementation for display of dynamic forms
 
 ```json
 {
-    "_type": "Form"
+  "_type": "Form",
+  "props": {
+    "name": "critterzRentalCheck",
+    "uischema": {
+      "type": "Control",
+      "scope": "#/properties/tokenId",
+      "label": "Enter sCritterz Token ID"
+    },
+    "schema": {
+      "type": "object",
+      "properties": {
+        "tokenId": {
+          "type": "string"
+        }
+      },
+      "default": {
+        "tokenId": ""
+      }
+    },
+    "submitLabel": "Check"
+  }
 }
 ```
 
@@ -31,7 +51,7 @@ Form({
   uischema: {
     type: "Control",
     scope: "#/properties/tokenId",
-    label: `Enter sCritterz Token ID`,
+    label: "Enter sCritterz Token ID",
   },
   schema: {
     type: "object",
@@ -47,3 +67,6 @@ Form({
   submitLabel: "Check",
 });
 ```
+
+### UI
+
