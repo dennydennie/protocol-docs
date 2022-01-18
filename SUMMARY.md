@@ -15,4 +15,5 @@
 - [Col](ui-components/col.md)
 - [Container](ui-components/container.md)
 - [Datatable](ui-components/datatable.md)
+- [Form](ui-components/form.md)
 - [Row](ui-components/row.md)
