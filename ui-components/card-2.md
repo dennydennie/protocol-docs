@@ -1,4 +1,4 @@
-# FRAGMENT
+# CONTAINER
 
 ## Supported Properties
 
@@ -6,6 +6,7 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name     | Type         | Description |
 | -------- | ------------ | ----------- |
+|          |              |             |
 | children | UiElement\[] |             |
 
 ## Examples

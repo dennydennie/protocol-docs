@@ -1,12 +1,14 @@
-# FRAGMENT
+# WALLET-SELECTOR
+
+## See Also
 
 ## Supported Properties
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
 
-| Name     | Type         | Description |
-| -------- | ------------ | ----------- |
-| children | UiElement\[] |             |
+| Name        | Type            | Description |
+| ----------- | --------------- | ----------- |
+| hideChains? | URpc \| boolean |             |
 
 ## Examples
 
